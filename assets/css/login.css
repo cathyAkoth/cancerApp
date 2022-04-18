@@ -36,20 +36,23 @@ section.side {
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .title {
     text-transform: uppercase;
     font-size: 3em;
+    font-family: "poppins", sans-serif;
     font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
+    color: #15a0e1;
 }
 
 .separator {
     width: 150px;
     height: 4px;
-    background-color: #843bc7;
+    background-color: #49b2df;
     margin: 24px;
 }
 
@@ -99,7 +102,7 @@ input ~ i {
 }
 
 input:focus ~ i {
-    color: #843bc7;
+    color: #69b3e0;
 }
 
 button.submit {
@@ -109,7 +112,7 @@ button.submit {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
-    background-image: linear-gradient(to right, #8b33c5, #15a0e1);
+    background-image: linear-gradient(to right, #3377c5, #15a0e1);
     cursor: pointer;
     transition: opacity 0.4s;
 }
