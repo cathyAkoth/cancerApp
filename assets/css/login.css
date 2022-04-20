@@ -82,7 +82,9 @@ button {
     outline: none;
     border-radius: 30px;
     font-size: 1.1em;
+    align-self: center;
 }
+
 
 input {
     width: 100%;
@@ -107,6 +109,7 @@ input:focus ~ i {
 
 button.submit {
     color: #fff;
+    width: 45%;
     padding: 14px 64px;
     margin: 32px auto;
     text-transform: uppercase;
@@ -116,9 +119,23 @@ button.submit {
     cursor: pointer;
     transition: opacity 0.4s;
 }
+button.submit1 {
+    color: #fff;
+    width: 45%;
+    background-image: linear-gradient(to right, #3377c5, #15a0e1);
+    padding: 14px 64px;
+    margin: 32px auto;
+    align-items: center;
+    text-transform: uppercase;
+}
 
 button.submit:hover {
-    opacity: 0.9;
+    opacity: 0.6;
+   
+}
+button.submit:hover {
+    opacity: 0.6;
+   
 }
 
 /* ----  Responsiveness   ----  */

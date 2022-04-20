@@ -42,7 +42,7 @@ body {
     background: #0241ad;
   }
   .back-to-top:hover i {
-    color: #ffc451;
+    color: #3fbbc0;
   }
   .back-to-top.active {
     visibility: visible;
@@ -135,60 +135,6 @@ body {
     max-height: 40px;
   }
   
-  /*--------------------------------------------------------------
-  #  Get Startet Button
-  --------------------------------------------------------------*/
-  .get-started-btn {
-    color: black;
-    border-radius: 4px;
-    padding: 7px 25px 8px 25px;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-size: 14px;
-    display: inline-block;
-    border: 2px solid #3fbbc0;
-  }
-  .get-started-btn1 {
-    color: black;
-    border-radius: 4px;
-    padding: 7px 25px 8px 25px;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-size: 14px;
-    display: inline-block;
-    background-color: #3fbbc0;
-    
-  }
-  .get-started-btn3 {
-    color: rgb(12, 12, 12);
-    border-radius: 4px;
-    padding: 7px 25px 8px 25px;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-size: 14px;
-    display: inline-block;
-    background-color: #F7FD04;
-    
-  }
-  .get-started-btn3:hover {
-    background: #0241ad; 
-     color: #343a40;
-  }
-  .get-started-btn:hover {
-     background: #F7FD04; 
-      color: #343a40;
-  }
-  .get-started-btn1:hover {
-    background: transparent;
-    color: #343a40;
-    border: 2px solid #F7FD04;
-  }
-  @media (max-width: 992px) {
-    .get-started-btn {
-      padding: 7px 20px 8px 20px;
-      margin-right: 15px;
-    }
-  }
   
   /*--------------------------------------------------------------
   # Navigation Menu
@@ -218,7 +164,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     /* color: #fff; */
-    color:#f3c4c5;
+    color:#fff;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -228,7 +174,7 @@ body {
     margin-left: 5px;
   }
   .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-    color: #F7FD04;
+    color: #3fbbc0;;
   }
   .navbar .dropdown ul {
     display: block;
@@ -240,7 +186,7 @@ body {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #f7fd04;
+    background: #3fbbc0;;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
   }
@@ -369,166 +315,12 @@ body {
     font-size: 12px;
   }
   .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-    background-color: #F7FD04;
+    background-color: #3fbbc0;
   }
   .navbar-mobile .dropdown > .dropdown-active {
     display: block;
   }
   
-  /*--------------------------------------------------------------
-  # Hero Section
-  --------------------------------------------------------------*/
-  #hero {
-    width: 100%;
-    height: 100vh;
-    background: url("../img/wave\ \(3\).svg");
-    background-color:#edf6ff; 
-    background-size: cover;
-    position: relative;
-  }
-  #hero:before {
-    content: "";
-    /* background: rgba(0, 0, 0, 0.3);  */
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  
-  #hero .container {
-    /* position: relative; */
-    position: absolute;
-    padding-top: 74px;
-    text-align: left;
-    /* margin-right: 40%; */
-    
-  }
-  #hero .container1 {
-    /* position: relative; */
-    position: absolute;
-    padding-top: 74px;
-    text-align: left;
-    /* margin-left: 40%; */
-    
-  }
-  
-  #hero h1 {
-    margin: 0;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 64px;
-    color: white;
-    font-family: "Poppins", sans-serif;
-  }
-  #hero h1 span {
-   color: #3fbbc0;   
-     
-     
-  }
-  #hero h2 span {
-     color: #f3c4c5;
-     font-weight: bolder;
-  }
-  #hero h2 {
-    color: rgba(255, 255, 255, 0.9);
-    margin: 10px 0 0 0;
-    font-size: 24px;
-  }
-  #hero .icon-box {
-    padding: 30px 20px;
-    transition: ease-in-out 0.3s;
-    border: 1px solid rgba(255, 255, 255, 0.3); 
-    height: 100%;
-    text-align: center;
-  }
-  #hero .icon-box i {
-    font-size: 32px;
-    line-height: 1;
-    color: #3fbbc0;
-  }
-  #hero .icon-box h3 {
-    font-weight: 700;
-    margin: 10px 0 0 0;
-    padding: 0;
-    line-height: 1;
-    font-size: 20px;
-    line-height: 26px;
-  }
-  #hero .icon-box h3 a {
-    color: #fff;
-    transition: ease-in-out 0.3s;
-  }
-  #hero .icon-box h3 a:hover {
-    color: #3fbbc0;
-  }
-  #hero .icon-box:hover {
-    border-color: #3fbbc0;
-  }
-  @media (min-width: 1024px) {
-    #hero {
-      background-attachment: fixed;
-    }
-  }
-  @media (max-width: 768px) {
-    #hero {
-      height: auto;
-    }
-    #hero h1 {
-      font-size: 28px;
-      line-height: 36px;
-    }
-    #hero h2 {
-      font-size: 20px;
-      line-height: 24px;
-    }
-    #hero.animated{
-      animation: up-down 2s ease-in-out infinite alternate-reverse both;
-    }
-  }
-  
-  /*--------------------------------------------------------------
-  # Sections General
-  --------------------------------------------------------------*/
-  section {
-    padding: 60px 0;
-    overflow: hidden;
-  }
-  
-  .section-title {
-    padding-bottom: 40px;
-  }
-  .section-title h2 {
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0;
-    line-height: 1px;
-    margin: 0 0 5px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #aaaaaa;
-    font-family: "Poppins", sans-serif;
-    
-  }
-  .section-title h2::after {
-    content: "";
-    width: 120px;  
-    height: 5px;
-    display: inline-block;
-    background: #3fbbc0; 
-    margin: 4px 10px;
-    
-  }
-  .section-title p {
-    margin: 0;
-    margin: 0;
-    font-size: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    color: #151515;
-  }
   
   /*--------------------------------------------------------------
   # About
@@ -1676,7 +1468,7 @@ body {
     text-transform: uppercase;
   }
   #footer .footer-top .footer-info h3 span {
-    color: #f7fd04;
+    color: #3fbbc0;;
   }
   #footer .footer-top .footer-info p {
     font-size: 14px;
@@ -1688,7 +1480,7 @@ body {
   #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #f7fd04;
+    background: #3fbbc0;
     color: black;
     line-height: 1;
     padding: 8px 0;
@@ -1700,7 +1492,7 @@ body {
     transition: 0.3s;
   }
   #footer .footer-top .social-links a:hover {
-    background: #f7fd04;
+    background: #3fbbc0;;
     color: #fff;
     text-decoration: none;
   }
@@ -1721,7 +1513,7 @@ body {
   }
   #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #f7fd04;
+    color: #3fbbc0;;
     font-size: 18px;
     line-height: 1;
   }
@@ -1740,7 +1532,7 @@ body {
     line-height: 1;
   }
   #footer .footer-top .footer-links ul a:hover {
-    color: #F7FD04;
+    color: #3fbbc0;;
   }
   #footer .footer-top .footer-newsletter form {
     margin-top: 30px;
@@ -1763,13 +1555,13 @@ body {
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #ffc451;
+    background: #3fbbc0;;
     color: #151515;
     transition: 0.3s;
     border-radius: 0 4px 4px 0;
   }
   #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-    background: #ffcd6b;
+    background: #3fbbc0;;
   }
   #footer .copyright {
     text-align: center;

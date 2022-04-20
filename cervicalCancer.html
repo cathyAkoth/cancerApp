@@ -38,8 +38,39 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="./index.html" class="logo me-auto">CancerApp<img src="" alt=""></a>
-    </header>
+      
+      <h1 class="logo me-auto"><a href="index.html">Cancer App</a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#departments">CancerTypes</a></li> -->
+          
+          <li class="dropdown"><a href="#"><span>Cancer</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              
+              <li class="dropdown"><a href="#"><span>Cancer Types</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./breastCancer.html">Breast Cancer</a></li>
+                  <li><a href="./prostateCancer.html">prostate Cancer</a></li>
+                  <li><a href="./cervicalCancer.html">Cervical Cancer</a></li>
+                  <li><a href="./throatCancer.html">throat Cancer</a></li>
+                  
+                </ul>
+              
+          </li>
+         
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="./login.html" class="appointment-btn scrollto"><span class="d-none d-md-inline">login</a>
+
+    </div>
+  </header><!-- End Header -->
+
      
     <section id="hero1">
         <div class="hero-container1" data-aos="zoom-in" data-aos-delay="100">
